@@ -23,7 +23,7 @@
 
   --ff-sans: "Inter", sans-serif;
 
-  --txt-lg: 700 1.5rem/200% var(--ff-sans); 
+  --title: 700 1.5rem/200% var(--ff-sans); 
   --label: 600 1rem/125% var(--ff-sans);
   --txt-md: 500 1rem/125% var(--ff-sans);
   --txt-sm: 500 .875rem/100% var(--ff-sans);
