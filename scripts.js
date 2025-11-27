@@ -24,14 +24,20 @@ form.addEventListener("submit", (e) => {
 
 
   //Verificando se o valor do input nao esta vazio.
-  if(input.value){
-    console.log("criado");
 
-    // Chamando funcao para criar elemento HTML.
-    newProduct(input.value);
-    resetInput(input);
-  } else {
-    alert("Digite o nome do produto");
+  try {
+
+    if(input.value){
+      console.log("Produto criado na lista");
+  
+      // Chamando funcao para criar elemento HTML.
+      newProduct(input.value);
+      resetInput(input);
+    } else {
+      alert("Digite o nome do produto");
+    }
+  } catch (e){
+    alert(e + " Ocorreu um erro tente mais tarde");
   }
 })
 
