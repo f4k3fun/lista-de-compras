@@ -142,6 +142,7 @@ ul[role="list"]{
   & p {
     color: var(--content-secondary);
     font: var(--txt-md);
+    /* text-transform: capitalize; */
   }
   }
 
