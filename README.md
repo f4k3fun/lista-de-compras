@@ -3,7 +3,7 @@
 Protótipo de uma aplicação de **lista de compras** desenvolvida com foco em **UI/UX**, **responsividade** e **organização de layout**, apresentando versões para **desktop e mobile**.
 
 ## 📸 Pré-visualização
-![Preview da landing page animada](capa-compras.png)
+![Preview da Quicklist - Lista de Compras](capa-compras.png)
 
 Interface de lista de compras com visual limpo e moderno, exibindo:
 - Versão desktop
